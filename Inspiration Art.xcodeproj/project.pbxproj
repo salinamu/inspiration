@@ -14,6 +14,7 @@
 		4914862F1E09DCB20020F6CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4914862D1E09DCB20020F6CD /* LaunchScreen.storyboard */; };
 		4914863A1E09DCB20020F6CD /* Inspiration_ArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491486391E09DCB20020F6CD /* Inspiration_ArtTests.swift */; };
 		491486451E09DCB20020F6CD /* Inspiration_ArtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491486441E09DCB20020F6CD /* Inspiration_ArtUITests.swift */; };
+		491486531E09F8D40020F6CD /* images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491486521E09F8D40020F6CD /* images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		491486401E09DCB20020F6CD /* Inspiration ArtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inspiration ArtUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		491486441E09DCB20020F6CD /* Inspiration_ArtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspiration_ArtUITests.swift; sourceTree = "<group>"; };
 		491486461E09DCB20020F6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491486521E09F8D40020F6CD /* images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4914862B1E09DCB20020F6CD /* Assets.xcassets */,
 				4914862D1E09DCB20020F6CD /* LaunchScreen.storyboard */,
 				491486301E09DCB20020F6CD /* Info.plist */,
+				491486521E09F8D40020F6CD /* images.swift */,
 			);
 			path = "Inspiration Art";
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					491486201E09DCB20020F6CD = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9EEZBBGFB7;
 						ProvisioningStyle = Automatic;
 					};
 					491486341E09DCB20020F6CD = {
@@ -261,6 +265,7 @@
 			files = (
 				491486271E09DCB20020F6CD /* ViewController.swift in Sources */,
 				491486251E09DCB20020F6CD /* AppDelegate.swift in Sources */,
+				491486531E09F8D40020F6CD /* images.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9EEZBBGFB7;
 				INFOPLIST_FILE = "Inspiration Art/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mustudios.Inspiration-Art";
@@ -422,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9EEZBBGFB7;
 				INFOPLIST_FILE = "Inspiration Art/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mustudios.Inspiration-Art";
